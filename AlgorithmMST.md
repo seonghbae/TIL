@@ -96,7 +96,7 @@
             PriorityQueue<Edge> pq = new PriorityQueue<>();
             boolean[] visited = new boolean[V];
             // 각 정점에서 다른 정점에 대한 가중치가 들어있는 리스트
-            ArrayList<ArratList<Edge>> graph;
+            ArrayList<ArrayList<Edge>> graph;
 
             pq.add(new Edge(0, 0));
 
